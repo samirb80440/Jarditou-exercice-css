@@ -384,6 +384,9 @@ Exercice 4.8
 Variables J, M, A, JMAX en numérique
 Variable VJ, VM, B en booléen
 Ecrire"Entrez le numéro du jour"
+Lire J
+Ecrire"Entrer le nuéro du mois"
+Lire M
 
 
 
