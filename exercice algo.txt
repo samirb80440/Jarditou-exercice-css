@@ -424,9 +424,20 @@ Lire N
 FinTantque
 Fin
  
-
-
-
+  Exercice 5,2
+Variable N entier
+Debut 
+N ← 0
+Ecrire "Entrez un nombre entre 10 et 20"
+TantQue ((N <10 )ou (N >20))
+Lire N
+Si (N <10) Alors
+Ecrire "plus grand"
+SinonSI (N >20) Alors
+Ecrire " plus petit"
+FinSi
+FinTantque
+Fin
 
 
 
