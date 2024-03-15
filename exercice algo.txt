@@ -452,18 +452,18 @@ Ecrire N + i
 FinTantque
 Fin
 
- Exercice 5.4
+  Exercice 5.4
  Variables N, i en entier
  Debut
  Ecrire " Entrez un nombre"
  Lire N 
  Ecrire "La  table de muplication de ce nombre est : "
-
  Pour i ← 1 à 10
  Ecrire N , "x", i, "=",n*i
-i Suivant
-Fin
+ i Suivant
+ Fin
 
+  Exercice 5.5
 
        
 
