@@ -383,6 +383,7 @@ Ecrire"Votre situation" , situ
 Exercice 4.8
 Variables J, M, A, JMAX en numérique
 Variable VJ, VM, B en booléen
+Debut
 Ecrire"Entrez le numéro du jour"
 Lire J
 Ecrire"Entrer le numéro du mois"
@@ -411,7 +412,17 @@ Si VJ et VM Alors
  FinSi
 
 
-
+ Exercice 5.1
+Variable N en entier
+Debut
+N ← 0
+Ecrire"Entrez un  nombre entre 1 et 3
+Lire N
+TantQue (( N< 1) ou (N > 3))
+Ecrire "Saisie erronée. Recommencez: "
+Lire N
+FinTantque
+Fin
  
 
 
