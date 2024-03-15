@@ -424,7 +424,7 @@ Lire N
 FinTantque
 Fin
  
-  Exercice 5,2
+  Exercice 5.2
 Variable N entier
 Debut 
 N ← 0
@@ -438,9 +438,19 @@ Ecrire " plus petit"
 FinSi
 FinTantque
 Fin
-
-
-
+ 
+  Exercice 5.3
+Variables N, i
+Debut
+Ecrire"Entrez un nombre
+Lire N
+i←0
+Ecrire "Les 10 nombres suiants sont: "
+TantQue i < 10
+i←i +1
+Ecrire N + i
+FinTantque
+Fin
        
 
 
