@@ -463,6 +463,8 @@ Fin
  Ecrire N , "x", i, "=",n*i
 i Suivant
 Fin
+
+
        
 
 
