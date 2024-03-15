@@ -159,7 +159,7 @@ Si n>0 alors
       Ecrire"Ce nombre est positif"
 Sinon
         Ecrire"Ce nombre est négatif"
-Finsi
+FinSi
 Fin
 
 Exercice 3.2
@@ -171,7 +171,7 @@ Si m>0 ET n>0 OU m<0 ET n<0 Alors
   Ecrire"Leur produit est positif"
 Sinon
  Ecrire"Leur produit est négatif"
-  Finsi
+  FinSi
 Fin
 
 Exercice 3.3
@@ -183,7 +183,7 @@ Si a<b ET b<c  Alors
    Ecrire"Ces noms sont classés alphabétiquement"
 Sinon
    Ecrire"Ces noms ne sont pas classés"
- Finsi
+ FinSi
 Fin 
 
 Exercice 3.4
@@ -198,8 +198,8 @@ Si n=0 Alors
    Ecrire"Ce nombre et nul"
  Sinon
      Ecrire"Ce nombre est positif"
-    Finsi
-   Finsi
+    FinSi
+   FinSi
 Fin
 
 Exercice 3.5
@@ -214,8 +214,8 @@ Si m<0 ET n<0 OU m>0 ET n>0 alors
    Ecrire"Le produit est positif"
 Sinon
 Ecrire"le produit est négatif"
-Finsi
-Finsi
+FinSi
+FinSi
 Fin
 
 Exercice 3.6
@@ -233,10 +233,10 @@ Si age>=8 Alors
 Ecrire"Catégorie Pupille"
 Si age>=6 Alors
 Ecrire"Catégorie Poussin"
-Finsi
-Finsi
-Finsi
-Finsi
+FinSi
+FinSi
+FinSi
+FinSi
 Fin
 
 
@@ -245,7 +245,7 @@ Si Tutu <=Toto + 4 ET Tata <> "OK" Alors
      Tutu←Tutu-1
 Sinon
 Tutu←Tutu+1
-Finsi
+FinSi
 
 Exercice 4.2
 Variables h,m: numérique 
@@ -256,10 +256,10 @@ m←m+1
 Si m= 60  alors
 m←0
 h←h+1
-Finsi
+FinSi
 Si h←24 Alors
 h←0
-Finsi
+FinSi
 Ecrire"Dans une minute  il sera ",h,"heure(s)",m,"minute(s)"
 
 
@@ -276,10 +276,10 @@ Finsi
 Si m= 60  alors
 m←0
 h←h+1
-Finsi
+FinSi
 Si h←24 Alors
 h←0
-Finsi
+FinSi
 Ecrire"Dans une seconde il sera ",h,"heure(s)",m,"minute(s) et",s,"s"
 
 Exercice 4.4
@@ -294,7 +294,7 @@ Si n<=10 alors
    p←10*0,1+(n-10)* 0,09
    Sinon
 p←10*0,1+20*0,09+(n-30)*0,08
-Finsi
+FinSi
 Ecrire"Le prix total est:", p
 Fin
 
@@ -313,7 +313,7 @@ Si c1 ou c2 Alors
 Ecrire "Imposable"
 Sinon
 Ecrire"Non Imposable"
-Finsi
+FinSi
 Fin
 
 Exercice 4.6
@@ -334,7 +334,7 @@ SinonSi C3 Alors
 Ecrire "Ballottage favorable"
 Sinon
 Ecrire "Ballottage défavorable"
-Finsi
+FinSi
 Fin
 
 
@@ -357,14 +357,14 @@ C3←assur >5
 P←0
 Si Non C1 Alors
 P← P + 1
-Finsi
+FinSi
 Si Non C2 Alors
 P← P + 1
-Finsi
+FinSi
 P←P + acc
 Si P < 3 et C3 Alors
  P←P -1
-Finsi
+FinSi
 Si P = -1  Alors
 situ←"Bleu"
 SinonSi P  = 0  Alors
@@ -375,7 +375,7 @@ SinonSi  P = 2 Alors
 situ←"Rouge"
 Sinon
 Situ←"Refusé"
-Finsi
+FinSi
 Ecrire"Votre situation" , situ
 
 
@@ -389,7 +389,26 @@ Ecrire"Entrer le numéro du mois"
 Lire M
 Ecire"Entrer l'année"
 Lire A
-
+Si VJ et VM Alors
+ Ecrire"La date est valide"
+ Sinon
+ Ecrire"La date n'est pas valide"
+ FinSi
+ B ← A dp 400 ou (non(A dp 100) et A dp 4 )
+ JMAX ← 0
+ VM ← M >= 1 et M =< 12
+ Si Vm Alors
+ Si M = 2 et B Alors
+ JMAX ← 29
+ SinonSi M = 2 Alors
+ JMAX ← 28
+ SinonSI M = 4 ou M = 6 ou M = 9 ou M = 11 Alors
+ JMAX ← 30
+ Sinon
+ JMAX ← 31
+ FinSi
+ VJ ← j >= 1 et J =< JMAX
+ FinSi
 
 
 
