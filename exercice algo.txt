@@ -451,6 +451,8 @@ i←i +1
 Ecrire N + i
 FinTantque
 Fin
+
+
        
 
 
