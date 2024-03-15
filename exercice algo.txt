@@ -387,6 +387,7 @@ Ecrire"Entrez le numéro du jour"
 Lire J
 Ecrire"Entrer le numéro du mois"
 Lire M
+Ecire"Entrer l'anée
 
 
 
