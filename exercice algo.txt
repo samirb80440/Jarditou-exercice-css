@@ -416,7 +416,7 @@ Si VJ et VM Alors
 Variable N en entier
 Debut
 N ← 0
-Ecrire"Entrez un  nombre entre 1 et 3
+Ecrire "Entrez un  nombre entre 1 et 3 "
 Lire N
 TantQue (( N< 1) ou (N > 3))
 Ecrire "Saisie erronée. Recommencez: "
