@@ -504,3 +504,54 @@ Fin
    Ecrire "Le nobre le plus grand était : ", PG
    Ecrire " Il a été Saisie en postion numéro ", IPG
    Fin
+
+
+   Exercice5.8
+   Variables N, i , PG, IPG en Entier
+   Debut
+    N ← 1
+    i ← 0
+    PG ← 0
+    TantQue (N <>0)
+    Ecrire" Entrez un nombre : "
+    Lire N
+    i ← i +1
+    Si ((i = 1)ou (N > PG)) Alors
+    PG ← N
+    IPG ← i
+    FinSi
+    FinTantque
+    Ecrire "Le nombre les plus grand était: "
+    Ecrire " Il a été saisi en postion numéro", IPG
+    Fin
+
+    Exercice 5.9
+    Variables E ,somdue , M, Reste, Nb10E, Nb5E en Entier
+    Debut
+    E ← 1
+    somdue ← 0
+    TantQue (E <> 0)
+    Ecrire "Entrez le montant: "
+    Lire E
+    somdue ← somdue + E
+    FinTantque
+    M ← 0
+    TantQue (M< somdue)
+    Ecrire" Vous devez : ", somdue, "euros"
+    Ecrire" Montant versé :"
+    Lire M
+    Si(M<somdue) Alors
+     Ecrire "vous ne donnez pas assez ! "
+     FinSi
+     FinTantque
+     Reste ← M - somdue
+     Nb10E ← 0
+     TantQue (Reste >=10)
+    Nb10E ← Nb10E + 1
+    Reste ← Reste -5
+    Finsi
+    Ecrire " rendu de la monnaie :"
+    Ecrire " Billets de 10 E : ", Nb10E
+    Ecrire " Billets de 5 E : ", Nb5E 
+    Ecrire "Pièces de  1 E : ", Reste
+    Fin
