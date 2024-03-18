@@ -464,8 +464,25 @@ Fin
  Fin
 
   Exercice 5.5
+  Variables N ,i, Som en Entier
+  Début
+  Ecrire"Entrez un nombre: "
+  Lire N
+  Som ← 0
+  Pour i ← 1 a N
+     Som ← Som+ i
+  i Suivant
+  Ecrire" La somme est :", Som
+  Fin    
 
-       
-
-
-
+  Exercices 5.6
+  Variables N, i, F en Entier
+  Début
+  Ecrire" Entrer un nombre : "
+  Lire N 
+  F ← 1
+  Pour i ← 2 a N
+    F ← F * i
+  i suivant 
+  Ecrire "La factorielle est : ", F
+  Fin
