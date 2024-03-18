@@ -1,6 +1,8 @@
 // exemple !!!
-var a,b,c
-b=("Ceci est un chaîne de caractères")
+var a,b,c ,d
 a=100
-c=b+a
+b=100
+c=1.00
+alert("Ceci est un chaînes de caractères :"+a)
+
 alert(c)
