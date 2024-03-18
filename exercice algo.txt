@@ -486,3 +486,21 @@ Fin
   i suivant 
   Ecrire "La factorielle est : ", F
   Fin
+
+  Exercice 5.7
+  Variables N, i, PG, IPG en Entier
+  Debut
+  Ecrire" Entrez un nombre: "
+  Lire PG
+  IPG ← 1
+  Pour i ← 2 a 20
+   Ecrire "Entrez un nombre : "
+   Lire N
+   Si (N>PG) Alors
+   PG ← N
+   IPG ← i
+   FinSi
+   I Suivant
+   Ecrire "Le nobre le plus grand était : ", PG
+   Ecrire " Il a été Saisie en postion numéro ", IPG
+   Fin
