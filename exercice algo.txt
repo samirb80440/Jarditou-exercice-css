@@ -571,3 +571,4 @@ Fin
     i Suivant
     Ecrire "Dans l'ordre, une chance sur ", A
     Ecrire "Dans le désordre, une chance sur ", A / B
+    
